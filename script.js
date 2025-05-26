@@ -122,12 +122,4 @@ const now = new Date();
 const shortDate = now.toLocaleDateString('en-US', { dateStyle: 'short' });
 document.getElementById(
   'current-dates'
-).innerHTML = `<strong>${shortDate}</strong>`;
-
-
-
-//date too close at the edge as well as the borders 
-//put the daily currency data eg: daily may 
-//remove half way work
-
-//result will present here 
+).innerHTML = `<strong>Daily exchange rate as : ${shortDate}</strong>`;
